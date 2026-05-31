@@ -1,0 +1,238 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+body {
+  background-color: #f3f3f3;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content[data-v-1cf27b2a] {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+}
+.content .fixed-top[data-v-1cf27b2a] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f3f3f3;
+  padding-top: 3.125rem;
+  padding-bottom: 0.625rem;
+  z-index: 999;
+}
+.content .fixed-top .toprow[data-v-1cf27b2a] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.content .fixed-top .toprow .left[data-v-1cf27b2a] {
+  flex: 1;
+  position: relative;
+}
+.content .fixed-top .toprow .left .schedule-item[data-v-1cf27b2a] {
+  width: 4.6875rem;
+  height: 1.5625rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.15625rem;
+  text-align: center;
+  position: relative;
+}
+.content .fixed-top .toprow .left .options-list[data-v-1cf27b2a] {
+  position: absolute;
+  top: 2.8125rem;
+  left: 0;
+  width: 6.25rem;
+  background-color: #f5f5f5;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  z-index: 100;
+}
+.content .fixed-top .toprow .left .options-list .option-item[data-v-1cf27b2a] {
+  padding: 0.78125rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+.content .fixed-top .toprow .left .options-list .option-item[data-v-1cf27b2a]:active {
+  background-color: #e0e0e0;
+}
+.content .fixed-top .toprow .left .options-list .option-item[data-v-1cf27b2a]:last-child {
+  border-bottom: none;
+}
+.content .fixed-top .toprow .right[data-v-1cf27b2a] {
+  display: flex;
+  align-items: center;
+}
+.content .fixed-top .toprow .right .settings-btn[data-v-1cf27b2a] {
+  margin-right: 0.625rem;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+.content .fixed-top .time[data-v-1cf27b2a] {
+  margin-top: 0.625rem;
+  height: 3.125rem;
+  display: flex;
+  gap: 0.46875rem;
+}
+.content .fixed-top .time .time-week[data-v-1cf27b2a] {
+  height: 3.125rem;
+  background-color: #ffffff;
+  flex: 1;
+  border-radius: 0.46875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content .fixed-top .time .time-week .time-week-num[data-v-1cf27b2a] {
+  line-height: 1.5625rem;
+  font-size: 1.375rem;
+}
+.content .fixed-top .time .time-week .time-week-text[data-v-1cf27b2a] {
+  line-height: 1.25rem;
+  font-size: 0.625rem;
+}
+.content .fixed-top .time .time-data[data-v-1cf27b2a] {
+  height: 3.125rem;
+  background-color: #ffffff;
+  flex: 7;
+  border-radius: 0.46875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.content .fixed-top .time .time-data .day-item[data-v-1cf27b2a] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.content .fixed-top .time .time-data .day-item .day-name[data-v-1cf27b2a] {
+  font-size: 0.8125rem;
+  color: #2c2c2c;
+  margin-bottom: 0.25rem;
+}
+.content .fixed-top .time .time-data .day-item .day-date[data-v-1cf27b2a] {
+  font-size: 0.75rem;
+  color: #5d5d5d;
+}
+.content .scroll-body[data-v-1cf27b2a] {
+  margin-top: 0.625rem;
+  height: 100vh;
+  padding-top: 8.125rem;
+  box-sizing: border-box;
+}
+.content .scroll-body .body[data-v-1cf27b2a] {
+  display: flex;
+  margin-top: 0.625rem;
+  gap: 0.46875rem;
+}
+.content .scroll-body .body .body-time[data-v-1cf27b2a] {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.3125rem;
+}
+.content .scroll-body .body .body-time .time-group[data-v-1cf27b2a] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem;
+}
+.content .scroll-body .body .body-time .time-group .time-item[data-v-1cf27b2a] {
+  background-color: #ffffff;
+  padding: 0.46875rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .scroll-body .body .body-time .time-group .time-item .time-num[data-v-1cf27b2a] {
+  font-size: 0.8125rem;
+  font-weight: bold;
+}
+.content .scroll-body .body .body-time .time-group .time-item .time-start[data-v-1cf27b2a],
+.content .scroll-body .body .body-time .time-group .time-item .time-end[data-v-1cf27b2a] {
+  font-size: 0.625rem;
+  color: #666;
+}
+.content .scroll-body .body .body-time .time-group .time-item .time-start[data-v-1cf27b2a] {
+  margin-top: 0.125rem;
+}
+.content .scroll-body .body .body-course[data-v-1cf27b2a] {
+  flex: 7;
+}
+.content .scroll-body .nav-btn[data-v-1cf27b2a] {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 0.9375rem;
+  border-radius: 0.5rem;
+  margin: 0.78125rem 0;
+  margin-bottom: 0.625rem;
+}
+.content .scroll-body .nav-btn [class^=btn-][data-v-1cf27b2a] {
+  flex: 1;
+  text-align: center;
+  padding: 0.3125rem 0;
+  margin: 0 0.3125rem;
+  border-radius: 0.625rem;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+.content .scroll-body .nav-btn [class^=btn-][data-v-1cf27b2a]:active {
+  opacity: 0.7;
+  transform: scale(0.96);
+}
+.content .scroll-body .nav-btn .btn-text[data-v-1cf27b2a] {
+  font-size: 0.875rem;
+  color: #333;
+}

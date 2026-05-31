@@ -1,0 +1,56 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom", // 取消导航栏
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/teaching/teaching",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/note/note",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"text": "课表",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/course.png",
+				"selectedIconPath": "static/tabs/course_select.png"
+			},
+			{
+				"text": "教学",
+				"pagePath": "pages/index/teaching/teaching",
+				"iconPath": "static/tabs/teaching.png",
+				"selectedIconPath": "static/tabs/teaching_select.png"
+			},
+			{
+				"text": "笔记",
+				"pagePath": "pages/index/note/note",
+				"iconPath": "static/tabs/node.png",
+				"selectedIconPath": "static/tabs/node_select.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
