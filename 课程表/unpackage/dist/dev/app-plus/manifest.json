@@ -157,7 +157,7 @@
         },
         {
           "text": "笔记",
-          "pagePath": "pages/index/note/note",
+          "pagePath": "pages/index/node/node",
           "iconPath": "/static/tabs/node.png",
           "selectedIconPath": "/static/tabs/node_select.png"
         }
